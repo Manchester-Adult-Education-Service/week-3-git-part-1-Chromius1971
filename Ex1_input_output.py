@@ -13,7 +13,13 @@
 # - Asks the user for their age
 # - Prints a message like:
 #   "Hello Alice, next year you will be 26!"
-
+name = input ("What is your name? ")
+age = int(input("How old are you? "))
+colour = input ("What's your favourite colour? ")
+food = input ("Whats your favourite food? ")
+print(f"Hello {name}, in two years you will be {age + 2}!") 
+print(f"So {name} what's your favourite colour? ")
+print()
 # HINTS:
 # name = input("What is your name? ")
 # age = int(input("How old are you? "))
