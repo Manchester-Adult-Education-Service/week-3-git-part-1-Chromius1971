@@ -13,7 +13,13 @@
 # - Asks the user for their age
 # - Prints a message like:
 #   "Hello Alice, next year you will be 26!"
-
+print()
+print("Step 1: Python Task")
+print()
+name = input ("What is your name? ")
+age = int(input("How old are you? "))
+print(f"Hello {name}, in two years you will be {age + 2}!") 
+print()
 # HINTS:
 # name = input("What is your name? ")
 # age = int(input("How old are you? "))
@@ -50,7 +56,15 @@
 #   and you really like pizza!"
 #
 # - Make sure you use variables for all inputs and format the output clearly.
-#
+#print()
+print("Extension Challenge")
+print()
+name = input ("What is your name? ")
+age = int(input("How old are you? "))
+colour = input ("What's your favourite colour? ")
+food = input ("Whats your favourite food? ")
+print(f"Hello {name}, in two years you will be {age + 2}. Your favourite colour is {colour} and you really like {food}!") 
+print()
 # Once complete, save your work with another commit:
 # git add Ex1_input_output.py
 # git commit -m "Completed extension challenge"
